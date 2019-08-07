@@ -1,8 +1,17 @@
 //	add custom fonts in here
 $custom-font-path : '/static/fonts';
-/*
-	@font-face {
-		font-family: "Bold";
-		src: url($custom-font-path + "/OpenSans-Bold.ttf");
-	}
-*/
+
+@font-face {
+	font-family: "Book";
+	src: url($custom-font-path + "/Futura-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Light";
+	src: url($custom-font-path + "/Futura-Light.ttf");
+}
+
+@font-face {
+	font-family: "Heavy";
+	src: url($custom-font-path + "/Futura-Heavy.ttf");
+}
