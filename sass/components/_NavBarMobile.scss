@@ -14,32 +14,32 @@
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
-		font-family: "SemiBold";
-		font-size: 25px;
-		text-transform: uppercase;
-		letter-spacing: 2px;
-		color: $black;
 		.nav-mobile-logo {
 			height: 40px;
 			width: 40px;
+			cursor: pointer;
 		}
 		.nav-mobile-menu {
 			height: 25px;
 			width: 25px;
+			cursor: pointer;
 		}
 	}
 
 	.nav-mobile-container {
 		display: flex;
 		flex-direction: column;
+		margin-top: 13px;
 		background: white;
 		.nav-mobile-item {
 			width: 100%;
-			margin-top: 10px;
-			font-family: "Light";
-			font-size: 14px;
+			margin-top: 30px;
+			font-family: "Book";
+			font-size: 25px;
 			text-transform: uppercase;
 			text-align: center;
+			align-items: center;
+			cursor: pointer;
 		}
 		.selected {
 				background: $black;

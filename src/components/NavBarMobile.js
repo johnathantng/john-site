@@ -28,10 +28,13 @@ const NavBarMobile = (props) => {
 			return (
 				<div className={`nav-mobile-container ${slide}`}>
 					<div className="nav-mobile-item">
+						<span>about me</span>
+					</div>
+					<div className="nav-mobile-item">
 						<span>work</span>
 					</div>
 					<div className="nav-mobile-item">
-						<span>about me</span>
+						<span>contact me</span>
 					</div>
 				</div>
 			);
