@@ -6,7 +6,6 @@ import NavBarMobile from './NavBarMobile';
 import { isMobile } from '../utils/isMobile';
 
 function NavBar(props) {
-	const { page } = props;
 
 	const [navbar, setNavBar] = useState(null);
 	const [width, setWidth] = useState(null);
@@ -16,9 +15,9 @@ function NavBar(props) {
 		window.addEventListener("resize", handleResize);
 		
 		if (isMobile()) {
-    	setNavBar(<NavBarMobile page={page}/>);
+    	setNavBar(<NavBarMobile />);
     } else {
-      setNavBar(<NavBarDesktop page={page}/>);
+      setNavBar(<NavBarDesktop />);
     }
 
     return () => window.removeEventListener("resize", handleResize);
